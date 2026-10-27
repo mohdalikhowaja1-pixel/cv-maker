@@ -34,6 +34,8 @@ HTML_TEMPLATE = """
         .btn-remove { position: absolute; top: 10px; right: 12px; color: #e53e3e; cursor: pointer; font-weight: bold; background: none; border: none; font-size: 1.1rem; }
         .btn-remove:hover { color: #c53030; }
     </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3410254230554312"
+     crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container my-5" style="max-width: 950px;">
