@@ -585,5 +585,10 @@ def generate_cv():
             mimetype='application/pdf'
         )
 
+@app.route('/ads.txt')
+def ads_txt():
+    content = "google.com, pub-3410254230554312, DIRECT, f08c47fec0942fa0"
+    return content, 200, {'Content-Type': 'text/plain'}
+
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
